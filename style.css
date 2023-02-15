@@ -9,15 +9,25 @@ body{
     display: grid;
     grid-template-rows: 100px 1fr 50px;
     padding: 70px 70px 24px 70px;
-    background-color: rgb(10, 10, 10)
+    background-color: #F5CF06;
+    font-family: 'Righteous', cursive;
+    color: #8e4106;
 }
 
-header{
-    background-color: rgb(61, 21, 207);
+.logo{
+   display: flex;
+   align-items: center;
+   gap: 24px;
 }
+
+    .logo__text{
+        font-size: 32px;
+        font-weight: 100;
+    }
+    
 main{
-    background-color: rgb(238, 40, 212);
+    background-color: rgb(231, 28, 28);
 }
 footer{
-    background-color: rgb(100, 228, 237);
+    background-color: rgb(17, 2, 2);
 }
